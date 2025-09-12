@@ -2,12 +2,12 @@
 def roots(a, b, c):
     discr = b**2 - 4*a*c
     if discr > 0:
-        root1 = (-b + discr**0.5) / (2*a)
-        root2 = (-b - discr**0.5) / (2*a)
-        return f"({root1}, {root2})"
+        raiz1 = (-b + discr**0.5) / (2*a)
+        raiz2 = (-b - discr**0.5) / (2*a)
+        return f"({raiz1}, {raiz2})"
     elif discr == 0:
-        root = -b / (2*a)
-        return f"({root})"
+        raiz = -b / (2*a)
+        return f"({raiz})"
     else:
         return f"( )"
 
